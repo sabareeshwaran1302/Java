@@ -27,7 +27,7 @@ class Pattern implements Runnable
         {
             for(int i = 1 ; i <= 9 ; i+=2)
             {
-                System.out.println(t.getName() + " : " + i);
+                System.out.println(t.getName() + " : " + "Priority : " + t.getPriority() + " : " + i);
 
                 try
                 {
@@ -43,7 +43,7 @@ class Pattern implements Runnable
         {
             for(int i = 2 ; i <= 10 ; i+=2)
             {
-                System.out.println(t.getName() + " : " + i);
+                System.out.println(t.getName() + " : " + "Priority : " + t.getPriority() + " : " + i);
 
                 try
                 {
@@ -110,8 +110,8 @@ t2.join();
 
 Here t2 is not started till t1 finishes.
 
-
 */
+
 
 public class Lab_qn3 
 {
